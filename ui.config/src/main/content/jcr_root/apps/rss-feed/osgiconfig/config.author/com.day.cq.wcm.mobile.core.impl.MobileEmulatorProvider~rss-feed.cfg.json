@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "rss-feed/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}
