@@ -32,7 +32,7 @@
                                                     jcr:primaryType="nt:unstructured"
                                                     sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
                                                     fieldDescription="Configure Number of Items to be displayed"
-                                                    fieldLabel="Items Size"
+                                                    fieldLabel="Items Size (Default value 10)"
                                                     max="100"
                                                     name="./listSize"/>
                                             <interval

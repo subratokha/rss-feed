@@ -3,4 +3,5 @@
     <filter root="/apps/rss-feed/clientlibs"/>
     <filter root="/apps/rss-feed/components"/>
     <filter root="/apps/rss-feed/i18n"/>
+    <filter root="/apps/msm/rss-feed-blueprint" mode="merge"/>
 </workspaceFilter>
