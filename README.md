@@ -1,6 +1,8 @@
 # Sample AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+Feed component created : /apps/rss-feed/components/feed
+Content package created and can be downloaded from location : https://drive.google.com/file/d/1W8RRByTApB3xhcEva8eyGl_GlmFc1NIC/view?usp=sharing 
 
 ## Modules
 
