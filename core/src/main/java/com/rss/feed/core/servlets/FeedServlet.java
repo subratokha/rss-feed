@@ -2,6 +2,7 @@ package com.rss.feed.core.servlets;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.rss.feed.core.dtos.Channel;
 import com.rss.feed.core.dtos.Item;
 import com.rss.feed.core.dtos.Rss;
 import com.rss.feed.core.services.FeedService;
@@ -22,6 +23,7 @@ import org.slf4j.LoggerFactory;
 import javax.servlet.Servlet;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Component(service = Servlet.class)
@@ -51,7 +53,8 @@ public class FeedServlet extends SlingSafeMethodsServlet {
 								String response;
 								try {
 												Rss rss = feedService.getFeed();
-												List<Item> itemList = rss.getChannel().getItems();
+												Channel channel = rss != null ? rss.getChannel() : null;
+												List<Item> itemList = channel != null ? channel.getItems() : Collections.emptyList();
 												if (size > itemList.size()) {
 																size = itemList.size();
 												}

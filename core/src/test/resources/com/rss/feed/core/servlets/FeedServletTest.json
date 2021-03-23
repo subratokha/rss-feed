@@ -1,0 +1,23 @@
+{
+  "feed": {
+    "jcr:primaryType": "nt:unstructured",
+    "sling:resourceType": "rss-feed/components/feed",
+    "listSize": "4",
+    "interval": "5",
+    "fallback": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "description": "Sample 1 Description",
+        "pubDate": "Sun Mar 21 2021 10:20:14 GMT+0100",
+        "title": "Sample 1"
+      },
+      "item1": {
+        "jcr:primaryType": "nt:unstructured",
+        "description": "Sample 2 Description",
+        "pubDate": "Sun Mar 21 2021 09:10:42 GMT+0100",
+        "title": "Sample 2"
+      }
+    }
+  }
+}
